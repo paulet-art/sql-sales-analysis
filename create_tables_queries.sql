@@ -1,8 +1,8 @@
 create table customer (
     customer_id varchar(10) primary key not null, 
     first_name varchar(50), 
-    last_name varchar(50), e
-    mail varchar(100)
+    last_name varchar(50), 
+    email varchar(100)
 );
 
 create table products (
